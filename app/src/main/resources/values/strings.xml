@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- sign_in strings -->
+
+	<string name="app_name">Desain Aplikasi Kel. 6</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="time_string">9:41</string>
+	<string name="sign_in_now_string">Sign in now</string>
+	<string name="please_sign_in_to_continue_our_app_string">Please sign in to continue our app</string>
+	<string name="name_gmail_com_string">name@gmail.com</string>
+	<string name="forget_password__string">Forget Password?</string>
+	<string name="sign_in_string">Sign In</string>
+	<string name="don_t_have_an_account__string">Dont have an account?</string>
+	<string name="_sign_up_string">Sign up</string>
+</resources>

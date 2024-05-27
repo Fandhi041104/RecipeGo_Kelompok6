@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="rectangle_821_ek2" type="id" />
+    <item name="_bg__sign_in" type="id" />
+    <item name="border" type="id" />
+    <item name="cap" type="id" />
+    <item name="capacity" type="id" />
+    <item name="wifi" type="id" />
+    <item name="cellular_connection" type="id" />
+    <item name="battery" type="id" />
+    <item name="logo" type="id" />
+    <item name="_sign_up" type="id" />
+    <item name="sign_in_now" type="id" />
+    <item name="just_sign_in" type="id" />
+</resources>

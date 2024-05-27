@@ -1,0 +1,101 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	<ScrollView
+		android:id="@+id/sign_in"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent">
+		<RelativeLayout
+			android:id="@+id/content_container"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<View
+				android:id="@+id/_bg__sign_in"
+				android:background="@drawable/_bg__sign_in_shape"
+				android:layout_width="375dp"
+				android:layout_height="812dp" />
+			<RelativeLayout
+				android:id="@+id/status_bar"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<RelativeLayout
+					android:id="@+id/battery"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<View
+						android:id="@+id/border"
+						android:background="@drawable/border_shape"
+						android:layout_width="22dp"
+						android:layout_height="11.33dp" />
+					<ImageView
+						android:id="@+id/cap"
+						android:layout_width="1.33dp"
+						android:layout_height="4dp"
+						android:layout_marginEnd="1.33dp"
+						android:layout_toEndOf="@+id/border"
+						android:layout_alignTop="@+id/border"
+						android:layout_alignBottom="@+id/border"
+						android:background="@drawable/cap_shape" />
+					<ImageView
+						android:id="@+id/capacity"
+						android:layout_width="18dp"
+						android:layout_height="7.33dp"
+						android:layout_marginEnd="1.33dp"
+						android:layout_toStartOf="@+id/border"
+						android:layout_alignTop="@+id/border"
+						android:layout_alignBottom="@+id/border"
+						android:background="@drawable/capacity_shape" />
+				</RelativeLayout>
+				<ImageView
+					android:id="@+id/wifi"
+					android:layout_width="15.33dp"
+					android:layout_height="11dp"
+					android:layout_marginEnd="5.33dp"
+					android:layout_toStartOf="@+id/battery"
+					android:background="@drawable/wifi_shape" />
+				<ImageView
+					android:id="@+id/cellular_connection"
+					android:layout_width="17dp"
+					android:layout_height="10.67dp"
+					android:layout_marginEnd="5.33dp"
+					android:layout_toStartOf="@+id/wifi"
+					android:background="@drawable/cellular_connection_shape" />
+				<ImageView
+					android:id="@+id/logo"
+					android:layout_width="28dp"
+					android:layout_height="11.33dp"
+					android:background="@drawable/logo_shape" />
+			</RelativeLayout>
+			<TextView
+				android:id="@+id/just_sign_in"
+				android:layout_width="226dp"
+				android:layout_height="33dp"
+				android:layout_marginTop="213dp"
+				android:layout_centerHorizontal="true"
+				android:text="@string/just_sign_in_string"
+				android:textSize="28sp"
+				android:textColor="@android:color/black" />
+			<TextView
+				android:id="@+id/_sign_up"
+				android:layout_width="226dp"
+				android:layout_height="33dp"
+				android:layout_below="@id/just_sign_in"
+				android:layout_centerHorizontal="true"
+				android:text="@string/_sign_up_string"
+				android:textSize="18sp"
+				android:textColor="@android:color/holo_blue_light" />
+			<TextView
+				android:id="@+id/sign_in_now"
+				android:layout_width="154dp"
+				android:layout_height="52dp"
+				android:layout_below="@id/_sign_up"
+				android:layout_centerHorizontal="true"
+				android:text="@string/sign_in_now_string"
+				android:textSize="24sp"
+				android:textColor="@android:color/white"
+				android:background="@android:color/holo_blue_dark"
+				android:gravity="center"
+				android:padding="12dp" />
+		</RelativeLayout>
+	</ScrollView>
+</HorizontalScrollView>
